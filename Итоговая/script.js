@@ -1,4 +1,4 @@
-
+// блоки двигаются 
 const revealItems = document.querySelectorAll(".reveal");
 
 if ("IntersectionObserver" in window) {
@@ -45,7 +45,7 @@ document.addEventListener("keydown", (event) => {
     event.preventDefault();
     document.body.classList.remove("warp");
 
-    // перезапускает сыы
+    // перезапускает css анимации 
     void document.body.offsetWidth;
     document.body.classList.add("warp");
 
